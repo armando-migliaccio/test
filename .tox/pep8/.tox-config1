@@ -1,0 +1,4 @@
+00000000000000000000000000000000 /usr/bin/python
+1.6.1 0 0 1
+00000000000000000000000000000000 -r/home/armax/workspace/openstack/neutron/requirements.txt
+00000000000000000000000000000000 -r/home/armax/workspace/openstack/neutron/test-requirements.txt

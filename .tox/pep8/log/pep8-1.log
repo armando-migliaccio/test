@@ -1,0 +1,1233 @@
+actionid=pep8
+msg=getenv
+cmdargs=[local('/home/armax/workspace/openstack/neutron/.tox/pep8/bin/pip'), 'install', '-U', '-r/home/armax/workspace/openstack/neutron/requirements.txt', '-r/home/armax/workspace/openstack/neutron/test-requirements.txt']
+env={'PYTHONIOENCODING': 'utf_8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '192.168.56.1 60056 22', 'LOGNAME': 'armax', 'USER': 'armax', 'PATH': '/home/armax/workspace/openstack/neutron/.tox/pep8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/home/armax', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'PYTHONHASHSEED': '0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_AUTH_SOCK': '/tmp/ssh-zxsXH23di9/agent.3385', 'VIRTUAL_ENV': '/home/armax/workspace/openstack/neutron/.tox/pep8', 'XDG_SESSION_ID': '1', '_': '/usr/local/bin/tox', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'OLDPWD': '/home/armax', 'PWD': '/home/armax/workspace/openstack/neutron', 'PIP_DOWNLOAD_CACHE': '/home/armax/.pip_download_cache', 'MAIL': '/var/mail/armax', 'SSH_CONNECTION': '192.168.56.1 60056 192.168.56.101 22'}
+Downloading/unpacking pbr>=0.6,!=0.7,<1.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpbr%2Fpbr-0.10.7-py2.py3-none-any.whl
+Downloading/unpacking Paste (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 6))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FP%2FPaste%2FPaste-1.7.5.1.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Paste/setup.py) egg_info for package Paste
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build/_sources'
+Downloading/unpacking PasteDeploy>=1.5.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 7))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2FP%2FPasteDeploy%2FPasteDeploy-1.5.2-py2.py3-none-any.whl
+Downloading/unpacking Routes>=1.12.3,!=2.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 8))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FR%2FRoutes%2FRoutes-1.13.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Routes/setup.py) egg_info for package Routes
+    
+    warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+    warning: no previously-included files matching '*.hgignore' found anywhere in distribution
+    warning: no previously-included files matching '*.hgtags' found anywhere in distribution
+Downloading/unpacking eventlet>=0.15.2 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 9))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fe%2Feventlet%2Feventlet-0.16.1-py2.py3-none-any.whl
+Downloading/unpacking greenlet>=0.3.2 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 10))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fg%2Fgreenlet%2Fgreenlet-0.4.5.zip
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/greenlet/setup.py) egg_info for package greenlet
+    
+Downloading/unpacking httplib2>=0.7.5 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 11))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fh%2Fhttplib2%2Fhttplib2-0.9.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/httplib2/setup.py) egg_info for package httplib2
+    
+Downloading/unpacking requests>=2.2.0,!=2.4.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 12))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fr%2Frequests%2Frequests-2.5.1-py2.py3-none-any.whl
+Downloading/unpacking jsonrpclib (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 13))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fj%2Fjsonrpclib%2Fjsonrpclib-0.1.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/jsonrpclib/setup.py) egg_info for package jsonrpclib
+    
+Downloading/unpacking Jinja2>=2.6 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 14))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FJ%2FJinja2%2FJinja2-2.7.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Jinja2/setup.py) egg_info for package Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Downloading/unpacking keystonemiddleware>=1.0.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fk%2Fkeystonemiddleware%2Fkeystonemiddleware-1.3.1-py2.py3-none-any.whl
+Downloading/unpacking netaddr>=0.7.12 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 16))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fany%2Fn%2Fnetaddr%2Fnetaddr-0.7.13-py2.py3-none-any.whl
+Downloading/unpacking python-neutronclient>=2.3.6,<3 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 17))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpython-neutronclient%2Fpython_neutronclient-2.3.10-py2.py3-none-any.whl
+Downloading/unpacking retrying>=1.2.3,!=1.3.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 18))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fr%2Fretrying%2Fretrying-1.3.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/retrying/setup.py) egg_info for package retrying
+    
+Downloading/unpacking SQLAlchemy>=0.9.7,<=0.9.99 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 19))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FS%2FSQLAlchemy%2FSQLAlchemy-0.9.8.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/SQLAlchemy/setup.py) egg_info for package SQLAlchemy
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    warning: no files found matching 'distribute_setup.py'
+    warning: no files found matching 'sa2to3.py'
+    warning: no files found matching 'ez_setup.py'
+    no previously-included directories found matching 'doc/build/output'
+Downloading/unpacking WebOb>=1.2.3 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 20))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FW%2FWebOb%2FWebOb-1.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/WebOb/setup.py) egg_info for package WebOb
+    
+    no previously-included directories found matching '*.pyc'
+    no previously-included directories found matching '*.pyo'
+Downloading/unpacking python-keystoneclient>=0.11.1 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 21))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpython-keystoneclient%2Fpython_keystoneclient-1.0.0-py2.py3-none-any.whl
+Downloading/unpacking alembic>=0.7.1 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 22))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fa%2Falembic%2Falembic-0.7.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/alembic/setup.py) egg_info for package alembic
+    
+    warning: no files found matching '*.jpg' under directory 'docs'
+    warning: no files found matching '*.sty' under directory 'docs'
+    warning: no files found matching '*.dat' under directory 'tests'
+    no previously-included directories found matching 'docs/build/output'
+Downloading/unpacking six>=1.7.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 23))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F3.3%2Fs%2Fsix%2Fsix-1.9.0-py2.py3-none-any.whl
+Downloading/unpacking stevedore>=1.1.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 24))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fs%2Fstevedore%2Fstevedore-1.2.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.config>=1.6.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 25))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.config%2Foslo.config-1.6.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.context>=0.1.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 26))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.context%2Foslo.context-0.1.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.db>=1.3.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 27))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Fo%2Foslo.db%2Foslo.db-1.4.1-py2-none-any.whl
+Downloading/unpacking oslo.i18n>=1.0.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 28))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.i18n%2Foslo.i18n-1.3.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.messaging>=1.4.0,!=1.5.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 29))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Fo%2Foslo.messaging%2Foslo.messaging-1.5.1-py2-none-any.whl
+Downloading/unpacking oslo.middleware>=0.3.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 30))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.middleware%2Foslo.middleware-0.3.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.rootwrap>=1.3.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 31))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.rootwrap%2Foslo.rootwrap-1.4.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.serialization>=1.2.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 32))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.serialization%2Foslo.serialization-1.2.0-py2.py3-none-any.whl
+Downloading/unpacking oslo.utils>=1.2.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 33))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslo.utils%2Foslo.utils-1.2.1-py2.py3-none-any.whl
+Downloading/unpacking python-novaclient>=2.18.0 (from -r /home/armax/workspace/openstack/neutron/requirements.txt (line 35))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpython-novaclient%2Fpython_novaclient-2.20.0-py2.py3-none-any.whl
+Downloading/unpacking hacking>=0.10.0,<0.11 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fh%2Fhacking%2Fhacking-0.10.0-py2.py3-none-any.whl
+Downloading/unpacking cliff>=1.7.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 6))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Fc%2Fcliff%2Fcliff-1.9.0-py2-none-any.whl
+Downloading/unpacking coverage>=3.6 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 7))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fc%2Fcoverage%2Fcoverage-3.7.1.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/coverage/setup.py) egg_info for package coverage
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking discover (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 8))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fd%2Fdiscover%2Fdiscover-0.4.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/discover/setup.py) egg_info for package discover
+    
+Downloading/unpacking fixtures>=0.3.14 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 9))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Ff%2Ffixtures%2Ffixtures-1.0.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/fixtures/setup.py) egg_info for package fixtures
+    
+    Installed /home/armax/workspace/openstack/neutron/.tox/pep8/build/fixtures/pbr-0.10.7-py2.7.egg
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    [pbr] In git context, generating filelist from git
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking mock>=1.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 10))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fm%2Fmock%2Fmock-1.0.1.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/mock/setup.py) egg_info for package mock
+    
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+Downloading/unpacking python-subunit>=0.0.18 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 11))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fp%2Fpython-subunit%2Fpython-subunit-1.0.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/python-subunit/setup.py) egg_info for package python-subunit
+    
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching 'aclocal.m4'
+    no previously-included directories found matching 'autom4te.cache'
+    no previously-included directories found matching 'c'
+    no previously-included directories found matching 'c++'
+    no previously-included directories found matching 'compile'
+    warning: no previously-included files found matching 'configure*'
+    warning: no previously-included files found matching 'depcomp'
+    warning: no previously-included files found matching 'INSTALL'
+    warning: no previously-included files found matching 'install-sh'
+    warning: no previously-included files found matching 'lib*'
+    warning: no previously-included files found matching 'ltmain.sh'
+    no previously-included directories found matching 'm4'
+    warning: no previously-included files found matching 'Makefile*'
+    warning: no previously-included files found matching 'missing'
+    no previously-included directories found matching 'perl'
+    warning: no previously-included files found matching 'py-compile'
+    no previously-included directories found matching 'shell'
+    warning: no previously-included files found matching 'stamp-h1'
+Downloading/unpacking requests-mock>=0.5.1 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 12))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fr%2Frequests-mock%2Frequests_mock-0.5.1-py2.py3-none-any.whl
+Downloading/unpacking sphinx>=1.1.2,!=1.2.0,!=1.3b1,<1.3 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 13))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2FS%2FSphinx%2FSphinx-1.2.3-py2-none-any.whl
+Downloading/unpacking oslosphinx>=2.2.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 14))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslosphinx%2Foslosphinx-2.3.0-py2.py3-none-any.whl
+Downloading/unpacking testrepository>=0.0.18 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Ft%2Ftestrepository%2Ftestrepository-0.0.20.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/testrepository/setup.py) egg_info for package testrepository
+    
+Downloading/unpacking testtools>=0.9.36,!=1.2.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 16))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Ft%2Ftesttools%2Ftesttools-1.5.0-py2.py3-none-any.whl
+Downloading/unpacking testscenarios>=0.4 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 17))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Ft%2Ftestscenarios%2Ftestscenarios-0.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/testscenarios/setup.py) egg_info for package testscenarios
+    
+Downloading/unpacking WebTest>=2.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 18))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FW%2FWebTest%2FWebTest-2.0.17.zip
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/WebTest/setup.py) egg_info for package WebTest
+    
+    no previously-included directories found matching 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+Downloading/unpacking oslotest>=1.2.0 (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 19))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fo%2Foslotest%2Foslotest-1.3.0-py2.py3-none-any.whl
+Downloading/unpacking tempest-lib (from -r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 20))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Ft%2Ftempest-lib%2Ftempest_lib-0.1.0-py2-none-any.whl
+Downloading/unpacking pip from https://pypi.python.org/packages/py2.py3/p/pip/pip-6.0.6-py2.py3-none-any.whl#md5=0472d9dc76a0df6cc6ab545e40aef832 (from pbr>=0.6,!=0.7,<1.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpip%2Fpip-6.0.6-py2.py3-none-any.whl
+Downloading/unpacking repoze.lru>=0.3 (from Routes>=1.12.3,!=2.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 8))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fr%2Frepoze.lru%2Frepoze.lru-0.6.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/repoze.lru/setup.py) egg_info for package repoze.lru
+    
+Downloading/unpacking markupsafe (from Jinja2>=2.6->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 14))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FM%2FMarkupSafe%2FMarkupSafe-0.23.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/markupsafe/setup.py) egg_info for package markupsafe
+    
+Downloading/unpacking iso8601>=0.1.9 (from keystonemiddleware>=1.0.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fi%2Fiso8601%2Fiso8601-0.1.10.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/iso8601/setup.py) egg_info for package iso8601
+    
+Downloading/unpacking Babel>=1.3 (from keystonemiddleware>=1.0.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FB%2FBabel%2FBabel-1.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Babel/setup.py) egg_info for package Babel
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+Downloading/unpacking pycadf>=0.6.0 (from keystonemiddleware>=1.0.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Fp%2Fpycadf%2Fpycadf-0.6.0-py2-none-any.whl
+Downloading/unpacking simplejson>=2.2.0 (from python-neutronclient>=2.3.6,<3->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 17))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fs%2Fsimplejson%2Fsimplejson-3.6.5.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/simplejson/setup.py) egg_info for package simplejson
+    
+Downloading/unpacking argparse from https://pypi.python.org/packages/2.7/a/argparse/argparse-1.3.0-py2.py3-none-any.whl#md5=c89395a1a43b61ca6a116aed5e3b1d59 (from python-neutronclient>=2.3.6,<3->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 17))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fa%2Fargparse%2Fargparse-1.3.0-py2.py3-none-any.whl
+Downloading/unpacking PrettyTable>=0.7,<0.8 (from python-keystoneclient>=0.11.1->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 21))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FP%2FPrettyTable%2Fprettytable-0.7.2.tar.bz2
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/PrettyTable/setup.py) egg_info for package PrettyTable
+    
+Downloading/unpacking Mako (from alembic>=0.7.1->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 22))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FM%2FMako%2FMako-1.0.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Mako/setup.py) egg_info for package Mako
+    
+    warning: no files found matching '*.xml' under directory 'examples'
+    warning: no files found matching '*.mako' under directory 'examples'
+    warning: no files found matching 'ez_setup.py'
+    no previously-included directories found matching 'doc/build/output'
+Downloading/unpacking sqlalchemy-migrate>=0.9.1,!=0.9.2 (from oslo.db>=1.3.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 27))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2%2Fs%2Fsqlalchemy-migrate%2Fsqlalchemy_migrate-0.9.4-py2-none-any.whl
+Downloading/unpacking kombu>=2.5.0 (from oslo.messaging>=1.4.0,!=1.5.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 29))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fk%2Fkombu%2Fkombu-3.0.24-py2.py3-none-any.whl
+Downloading/unpacking PyYAML>=3.1.0 (from oslo.messaging>=1.4.0,!=1.5.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 29))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FP%2FPyYAML%2FPyYAML-3.11.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/PyYAML/setup.py) egg_info for package PyYAML
+    
+Downloading/unpacking netifaces>=0.10.4 (from oslo.utils>=1.2.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 33))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fn%2Fnetifaces%2Fnetifaces-0.10.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/netifaces/setup.py) egg_info for package netifaces
+    
+Downloading/unpacking pep8==1.5.7 (from hacking>=0.10.0,<0.11->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F3.3%2Fp%2Fpep8%2Fpep8-1.5.7-py2.py3-none-any.whl
+Downloading/unpacking pyflakes==0.8.1 (from hacking>=0.10.0,<0.11->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F3.3%2Fp%2Fpyflakes%2Fpyflakes-0.8.1-py2.py3-none-any.whl
+Downloading/unpacking mccabe==0.2.1 (from hacking>=0.10.0,<0.11->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fm%2Fmccabe%2Fmccabe-0.2.1.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/mccabe/setup.py) egg_info for package mccabe
+    
+Downloading/unpacking flake8==2.2.4 (from hacking>=0.10.0,<0.11->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 4))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Ff%2Fflake8%2Fflake8-2.2.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/flake8/setup.py) egg_info for package flake8
+    
+Downloading/unpacking pyparsing>=2.0.1 (from cliff>=1.7.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 6))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.6%2Fp%2Fpyparsing%2Fpyparsing-2.0.3-py2.py3-none-any.whl
+Downloading/unpacking cmd2>=0.6.7 (from cliff>=1.7.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 6))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fc%2Fcmd2%2Fcmd2-0.6.8.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/cmd2/setup.py) egg_info for package cmd2
+    
+Downloading/unpacking extras (from python-subunit>=0.0.18->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 11))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fe%2Fextras%2Fextras-0.0.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/extras/setup.py) egg_info for package extras
+    
+Downloading/unpacking Pygments>=1.2 (from sphinx>=1.1.2,!=1.2.0,!=1.3b1,<1.3->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 13))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2FP%2FPygments%2FPygments-2.0.1-py2-none-any.whl
+Downloading/unpacking docutils>=0.7 (from sphinx>=1.1.2,!=1.2.0,!=1.3b1,<1.3->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 13))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fd%2Fdocutils%2Fdocutils-0.12.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/docutils/setup.py) egg_info for package docutils
+    
+    warning: no files found matching 'MANIFEST'
+    warning: no files found matching '*' under directory 'extras'
+    warning: no previously-included files matching '.cvsignore' found under directory '*'
+    warning: no previously-included files matching '*.pyc' found under directory '*'
+    warning: no previously-included files matching '*~' found under directory '*'
+    warning: no previously-included files matching '.DS_Store' found under directory '*'
+Downloading/unpacking python-mimeparse (from testtools>=0.9.36,!=1.2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 16))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fp%2Fpython-mimeparse%2Fpython-mimeparse-0.1.4.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/python-mimeparse/setup.py) egg_info for package python-mimeparse
+    
+Downloading/unpacking unittest2>=0.8.0 (from testtools>=0.9.36,!=1.2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 16))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fu%2Funittest2%2Funittest2-0.8.0-py2.py3-none-any.whl
+Downloading/unpacking waitress>=0.8.5 (from WebTest>=2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 18))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fw%2Fwaitress%2Fwaitress-0.8.9.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/waitress/setup.py) egg_info for package waitress
+    
+Downloading/unpacking beautifulsoup4 (from WebTest>=2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 18))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fb%2Fbeautifulsoup4%2Fbeautifulsoup4-4.3.2.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/beautifulsoup4/setup.py) egg_info for package beautifulsoup4
+    
+Downloading/unpacking mox3>=0.7.0 (from oslotest>=1.2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 19))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fm%2Fmox3%2Fmox3-0.7.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/mox3/setup.py) egg_info for package mox3
+    
+    Installed /home/armax/workspace/openstack/neutron/.tox/pep8/build/mox3/pbr-0.10.7-py2.7.egg
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    [pbr] In git context, generating filelist from git
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking jsonschema>=2.0.0,<3.0.0 (from tempest-lib->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 20))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fj%2Fjsonschema%2Fjsonschema-2.4.0-py2.py3-none-any.whl
+Downloading/unpacking pytz>=0a (from Babel>=1.3->keystonemiddleware>=1.0.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fpy2.py3%2Fp%2Fpytz%2Fpytz-2014.10-py2.py3-none-any.whl
+Downloading/unpacking posix-ipc (from pycadf>=0.6.0->keystonemiddleware>=1.0.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 15))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fp%2Fposix_ipc%2Fposix_ipc-0.9.9.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/posix-ipc/setup.py) egg_info for package posix-ipc
+    
+Downloading/unpacking Tempita>=0.4 (from sqlalchemy-migrate>=0.9.1,!=0.9.2->oslo.db>=1.3.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 27))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FT%2FTempita%2FTempita-0.5.2.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/Tempita/setup.py) egg_info for package Tempita
+    
+Downloading/unpacking decorator (from sqlalchemy-migrate>=0.9.1,!=0.9.2->oslo.db>=1.3.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 27))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fd%2Fdecorator%2Fdecorator-3.4.0.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/decorator/setup.py) egg_info for package decorator
+    
+    warning: no previously-included files found matching 'Makefile'
+Downloading/unpacking sqlparse (from sqlalchemy-migrate>=0.9.1,!=0.9.2->oslo.db>=1.3.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 27))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fs%2Fsqlparse%2Fsqlparse-0.1.14.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/sqlparse/setup.py) egg_info for package sqlparse
+    
+Downloading/unpacking amqp>=1.4.5,<2.0 (from kombu>=2.5.0->oslo.messaging>=1.4.0,!=1.5.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 29))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F2.7%2Fa%2Famqp%2Famqp-1.4.6-py2-none-any.whl
+Downloading/unpacking anyjson>=0.3.3 (from kombu>=2.5.0->oslo.messaging>=1.4.0,!=1.5.0->-r /home/armax/workspace/openstack/neutron/requirements.txt (line 29))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fa%2Fanyjson%2Fanyjson-0.3.3.tar.gz
+  Running setup.py (path:/home/armax/workspace/openstack/neutron/.tox/pep8/build/anyjson/setup.py) egg_info for package anyjson
+    
+Downloading/unpacking setuptools from https://pypi.python.org/packages/3.4/s/setuptools/setuptools-12.0.1-py2.py3-none-any.whl#md5=ef4ffca8e29466006364e1a2253eda00 (from waitress>=0.8.5->WebTest>=2.0->-r /home/armax/workspace/openstack/neutron/test-requirements.txt (line 18))
+  Using download cache from /home/armax/.pip_download_cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2F3.4%2Fs%2Fsetuptools%2Fsetuptools-12.0.1-py2.py3-none-any.whl
+Installing collected packages: pbr, Paste, PasteDeploy, Routes, eventlet, greenlet, httplib2, requests, jsonrpclib, Jinja2, keystonemiddleware, netaddr, python-neutronclient, retrying, SQLAlchemy, WebOb, python-keystoneclient, alembic, six, stevedore, oslo.config, oslo.context, oslo.db, oslo.i18n, oslo.messaging, oslo.middleware, oslo.rootwrap, oslo.serialization, oslo.utils, python-novaclient, hacking, cliff, coverage, discover, fixtures, mock, python-subunit, requests-mock, sphinx, oslosphinx, testrepository, testtools, testscenarios, WebTest, oslotest, tempest-lib, pip, repoze.lru, markupsafe, iso8601, Babel, pycadf, simplejson, argparse, PrettyTable, Mako, sqlalchemy-migrate, kombu, PyYAML, netifaces, pep8, pyflakes, mccabe, flake8, pyparsing, cmd2, extras, Pygments, docutils, python-mimeparse, unittest2, waitress, beautifulsoup4, mox3, jsonschema, pytz, posix-ipc, Tempita, decorator, sqlparse, amqp, anyjson, setuptools
+  Running setup.py install for Paste
+    Skipping installation of /home/armax/workspace/openstack/neutron/.tox/pep8/lib/python2.7/site-packages/paste/__init__.py (namespace package)
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build/_sources'
+    Installing /home/armax/workspace/openstack/neutron/.tox/pep8/lib/python2.7/site-packages/Paste-1.7.5.1-py2.7-nspkg.pth
+  Running setup.py install for Routes
+    
+    warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+    warning: no previously-included files matching '*.hgignore' found anywhere in distribution
+    warning: no previously-included files matching '*.hgtags' found anywhere in distribution
+  Running setup.py install for greenlet
+    building 'greenlet' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c greenlet.c -o build/temp.linux-x86_64-2.7/greenlet.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/greenlet.o -o build/lib.linux-x86_64-2.7/greenlet.so
+    
+  Running setup.py install for httplib2
+    
+  Running setup.py install for jsonrpclib
+    
+  Running setup.py install for Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+  Running setup.py install for retrying
+    
+  Running setup.py install for SQLAlchemy
+    building 'sqlalchemy.cprocessors' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/processors.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cprocessors.so
+    building 'sqlalchemy.cresultproxy' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/resultproxy.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cresultproxy.so
+    building 'sqlalchemy.cutils' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/utils.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cutils.so
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    warning: no files found matching 'distribute_setup.py'
+    warning: no files found matching 'sa2to3.py'
+    warning: no files found matching 'ez_setup.py'
+    no previously-included directories found matching 'doc/build/output'
+  Running setup.py install for WebOb
+    
+    no previously-included directories found matching '*.pyc'
+    no previously-included directories found matching '*.pyo'
+  Running setup.py install for alembic
+    
+    warning: no files found matching '*.jpg' under directory 'docs'
+    warning: no files found matching '*.sty' under directory 'docs'
+    warning: no files found matching '*.dat' under directory 'tests'
+    no previously-included directories found matching 'docs/build/output'
+    Installing alembic script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for coverage
+    building 'coverage.tracer' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c coverage/tracer.c -o build/temp.linux-x86_64-2.7/coverage/tracer.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/coverage/tracer.o -o build/lib.linux-x86_64-2.7/coverage/tracer.so
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    Installing coverage2 script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+    Installing coverage-2.7 script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+    Installing coverage script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for discover
+    
+    Installing discover script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for fixtures
+    [pbr] Reusing existing SOURCES.txt
+  Running setup.py install for mock
+    
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.js' under directory 'docs'
+  Running setup.py install for python-subunit
+    changing mode of build/scripts-2.7/subunit-1to2 from 664 to 775
+    changing mode of build/scripts-2.7/subunit-2to1 from 664 to 775
+    changing mode of build/scripts-2.7/subunit-filter from 664 to 775
+    changing mode of build/scripts-2.7/subunit-ls from 664 to 775
+    changing mode of build/scripts-2.7/subunit-notify from 664 to 775
+    changing mode of build/scripts-2.7/subunit-output from 664 to 775
+    changing mode of build/scripts-2.7/subunit-stats from 664 to 775
+    changing mode of build/scripts-2.7/subunit-tags from 664 to 775
+    changing mode of build/scripts-2.7/subunit2csv from 664 to 775
+    changing mode of build/scripts-2.7/subunit2gtk from 664 to 775
+    changing mode of build/scripts-2.7/subunit2junitxml from 664 to 775
+    changing mode of build/scripts-2.7/subunit2pyunit from 664 to 775
+    changing mode of build/scripts-2.7/tap2subunit from 664 to 775
+    
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching 'aclocal.m4'
+    no previously-included directories found matching 'autom4te.cache'
+    no previously-included directories found matching 'c'
+    no previously-included directories found matching 'c++'
+    no previously-included directories found matching 'compile'
+    warning: no previously-included files found matching 'configure*'
+    warning: no previously-included files found matching 'depcomp'
+    warning: no previously-included files found matching 'INSTALL'
+    warning: no previously-included files found matching 'install-sh'
+    warning: no previously-included files found matching 'lib*'
+    warning: no previously-included files found matching 'ltmain.sh'
+    no previously-included directories found matching 'm4'
+    warning: no previously-included files found matching 'Makefile*'
+    warning: no previously-included files found matching 'missing'
+    no previously-included directories found matching 'perl'
+    warning: no previously-included files found matching 'py-compile'
+    no previously-included directories found matching 'shell'
+    warning: no previously-included files found matching 'stamp-h1'
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-notify to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-tags to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-2to1 to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-ls to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-1to2 to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/tap2subunit to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit2junitxml to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit2csv to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-stats to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit2gtk to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-output to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit-filter to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/subunit2pyunit to 775
+  Running setup.py install for testrepository
+    changing mode of build/scripts-2.7/testr from 664 to 775
+    
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/testr to 775
+  Running setup.py install for testscenarios
+    
+  Running setup.py install for WebTest
+    
+    no previously-included directories found matching 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  Found existing installation: pip 1.5.6
+    Uninstalling pip:
+      Successfully uninstalled pip
+  Running setup.py install for repoze.lru
+    
+    Skipping installation of /home/armax/workspace/openstack/neutron/.tox/pep8/lib/python2.7/site-packages/repoze/__init__.py (namespace package)
+    Installing /home/armax/workspace/openstack/neutron/.tox/pep8/lib/python2.7/site-packages/repoze.lru-0.6-py2.7-nspkg.pth
+  Running setup.py install for markupsafe
+    
+    building 'markupsafe._speedups' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c markupsafe/_speedups.c -o build/temp.linux-x86_64-2.7/markupsafe/_speedups.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/markupsafe/_speedups.o -o build/lib.linux-x86_64-2.7/markupsafe/_speedups.so
+  Running setup.py install for iso8601
+    
+  Running setup.py install for Babel
+    
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    Installing pybabel script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for simplejson
+    building 'simplejson._speedups' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c simplejson/_speedups.c -o build/temp.linux-x86_64-2.7/simplejson/_speedups.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/simplejson/_speedups.o -o build/lib.linux-x86_64-2.7/simplejson/_speedups.so
+    
+  Found existing installation: argparse 1.2.1
+    Not uninstalling argparse at /usr/lib/python2.7, outside environment /home/armax/workspace/openstack/neutron/.tox/pep8
+  Running setup.py install for PrettyTable
+    
+  Running setup.py install for Mako
+    
+    warning: no files found matching '*.xml' under directory 'examples'
+    warning: no files found matching '*.mako' under directory 'examples'
+    warning: no files found matching 'ez_setup.py'
+    no previously-included directories found matching 'doc/build/output'
+    Installing mako-render script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for PyYAML
+    checking if libyaml is compilable
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c build/temp.linux-x86_64-2.7/check_libyaml.c -o build/temp.linux-x86_64-2.7/check_libyaml.o
+    checking if libyaml is linkable
+    x86_64-linux-gnu-gcc -pthread build/temp.linux-x86_64-2.7/check_libyaml.o -lyaml -o build/temp.linux-x86_64-2.7/check_libyaml
+    building '_yaml' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c ext/_yaml.c -o build/temp.linux-x86_64-2.7/ext/_yaml.o
+    In file included from ext/_yaml.c:343:0:
+    ext/_yaml.h:6:0: warning: "PyUnicode_FromString" redefined [enabled by default]
+     #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+     ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:281:0: note: this is the location of the previous definition
+     # define PyUnicode_FromString PyUnicodeUCS4_FromString
+     ^
+    ext/_yaml.c: In function ‘__pyx_pf_5_yaml_get_version_string’:
+    ext/_yaml.c:1346:17: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       __pyx_v_value = yaml_get_version_string();
+                     ^
+    ext/_yaml.c: In function ‘__pyx_pf_5_yaml_7CParser___init__’:
+    ext/_yaml.c:2471:5: warning: passing argument 2 of ‘yaml_parser_set_input’ from incompatible pointer type [enabled by default]
+         yaml_parser_set_input((&__pyx_v_self->parser), __pyx_f_5_yaml_input_handler, ((void *)__pyx_v_self));
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:1367:1: note: expected ‘int (*)(void *, unsigned char *, size_t,  size_t *)’ but argument is of type ‘int (*)(void *, char *, int,  int *)’
+     yaml_parser_set_input(yaml_parser_t *parser,
+     ^
+    ext/_yaml.c:2664:5: warning: pointer targets in passing argument 2 of ‘yaml_parser_set_input_string’ differ in signedness [-Wpointer-sign]
+         yaml_parser_set_input_string((&__pyx_v_self->parser), PyString_AS_STRING(__pyx_v_stream), PyString_GET_SIZE(__pyx_v_stream));
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:1341:1: note: expected ‘const unsigned char *’ but argument is of type ‘char *’
+     yaml_parser_set_input_string(yaml_parser_t *parser,
+     ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__token_to_object’:
+    ext/_yaml.c:4183:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4183:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4195:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 418; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4195:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 418; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4741:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 448; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4741:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 448; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4792:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4792:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4843:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 454; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4843:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 454; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4855:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 455; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:4855:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 455; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:4938:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_token->data.scalar.value, __pyx_v_token->data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 460; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__event_to_object’:
+    ext/_yaml.c:6435:9: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+             __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 574; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+             ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:6435:9: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+             __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 574; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+             ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:6447:9: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+             __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+             ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:6447:9: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+             __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+             ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:6616:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:6616:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:6687:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 591; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:6687:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 591; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:6722:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 594; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:6722:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 594; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:6737:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_1 = PyUnicode_DecodeUTF8(__pyx_v_event->data.scalar.value, __pyx_v_event->data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:7031:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:7031:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:7066:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 623; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:7066:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 623; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:7253:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:7253:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:7288:7: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+           __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 640; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:7288:7: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+           __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 640; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+           ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__compose_node’:
+    ext/_yaml.c:8704:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:8704:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:8924:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:8924:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:8962:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:8962:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:9000:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 756; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:9000:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 756; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__compose_scalar_node’:
+    ext/_yaml.c:9532:3: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+       __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_self->parsed_event.data.scalar.value, __pyx_v_self->parsed_event.data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c:9688:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_9 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 804; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:9688:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_9 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 804; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__compose_sequence_node’:
+    ext/_yaml.c:10128:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 837; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:10128:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 837; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_7CParser__compose_mapping_node’:
+    ext/_yaml.c:10654:5: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 876; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:38:0,
+                     from ext/_yaml.c:16:
+    /usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     extern size_t strlen (const char *__s)
+                   ^
+    ext/_yaml.c:10654:5: warning: pointer targets in passing argument 1 of ‘PyUnicodeUCS4_DecodeUTF8’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 876; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    In file included from /usr/include/python2.7/Python.h:85:0,
+                     from ext/_yaml.c:16:
+    /usr/include/python2.7/unicodeobject.h:261:31: note: expected ‘const char *’ but argument is of type ‘yaml_char_t *’
+     # define PyUnicode_DecodeUTF8 PyUnicodeUCS4_DecodeUTF8
+                                   ^
+    /usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro ‘PyUnicode_DecodeUTF8’
+     PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                           ^
+    ext/_yaml.c: In function ‘__pyx_pf_5_yaml_8CEmitter___init__’:
+    ext/_yaml.c:11721:3: warning: passing argument 2 of ‘yaml_emitter_set_output’ from incompatible pointer type [enabled by default]
+       yaml_emitter_set_output((&__pyx_v_self->emitter), __pyx_f_5_yaml_output_handler, ((void *)__pyx_v_self));
+       ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:1829:1: note: expected ‘int (*)(void *, unsigned char *, size_t)’ but argument is of type ‘int (*)(void *, char *, int)’
+     yaml_emitter_set_output(yaml_emitter_t *emitter,
+     ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_8CEmitter__object_to_event’:
+    ext/_yaml.c:12898:44: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+             __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                                ^
+    ext/_yaml.c:12991:44: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+             __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                                ^
+    ext/_yaml.c:13248:5: warning: pointer targets in passing argument 2 of ‘yaml_alias_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = ((yaml_alias_event_initialize(__pyx_v_event, __pyx_v_anchor) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:553:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+     ^
+    ext/_yaml.c:13824:5: warning: pointer targets in passing argument 2 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:13824:5: warning: pointer targets in passing argument 3 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:13824:5: warning: pointer targets in passing argument 4 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:14166:5: warning: pointer targets in passing argument 2 of ‘yaml_sequence_start_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:601:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_sequence_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:14166:5: warning: pointer targets in passing argument 3 of ‘yaml_sequence_start_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:601:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_sequence_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:14508:5: warning: pointer targets in passing argument 2 of ‘yaml_mapping_start_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:633:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_mapping_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:14508:5: warning: pointer targets in passing argument 3 of ‘yaml_mapping_start_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_3 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:633:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_mapping_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c: In function ‘__pyx_pf_5_yaml_8CEmitter_12serialize’:
+    ext/_yaml.c:15784:42: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+           __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                              ^
+    ext/_yaml.c:15877:42: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+           __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                              ^
+    ext/_yaml.c: In function ‘__pyx_f_5_yaml_8CEmitter__serialize_node’:
+    ext/_yaml.c:16616:5: warning: pointer targets in passing argument 2 of ‘yaml_alias_event_initialize’ differ in signedness [-Wpointer-sign]
+         __pyx_t_2 = ((yaml_alias_event_initialize((&__pyx_v_event), __pyx_v_anchor) == 0) != 0);
+         ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:553:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+     ^
+    ext/_yaml.c:17195:7: warning: pointer targets in passing argument 2 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17195:7: warning: pointer targets in passing argument 3 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17195:7: warning: pointer targets in passing argument 4 of ‘yaml_scalar_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:578:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_scalar_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17473:7: warning: pointer targets in passing argument 2 of ‘yaml_sequence_start_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:601:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_sequence_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17473:7: warning: pointer targets in passing argument 3 of ‘yaml_sequence_start_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:601:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_sequence_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17874:7: warning: pointer targets in passing argument 2 of ‘yaml_mapping_start_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:633:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_mapping_start_event_initialize(yaml_event_t *event,
+     ^
+    ext/_yaml.c:17874:7: warning: pointer targets in passing argument 3 of ‘yaml_mapping_start_event_initialize’ differ in signedness [-Wpointer-sign]
+           __pyx_t_8 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+           ^
+    In file included from ext/_yaml.h:2:0,
+                     from ext/_yaml.c:343:
+    /usr/include/yaml.h:633:1: note: expected ‘yaml_char_t *’ but argument is of type ‘char *’
+     yaml_mapping_start_event_initialize(yaml_event_t *event,
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/ext/_yaml.o -lyaml -o build/lib.linux-x86_64-2.7/_yaml.so
+    
+  Running setup.py install for netifaces
+    checking for getifaddrs...found.
+    checking for getnameinfo...found.
+    checking for optional header files...netash/ash.h netatalk/at.h netax25/ax25.h neteconet/ec.h netipx/ipx.h netpacket/packet.h linux/irda.h linux/atm.h linux/llc.h linux/tipc.h linux/dn.h.
+    checking whether struct sockaddr has a length field...no.
+    checking which sockaddr_xxx structs are defined...at ax25 in in6 ipx un ash ec ll atmpvc atmsvc dn irda llc.
+    checking for routing socket support...no.
+    checking for sysctl(CTL_NET...) support...no.
+    checking for netlink support...yes.
+    will use netlink to read routing table
+    building 'netifaces' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DNETIFACES_VERSION=0.10.4 -DHAVE_GETIFADDRS=1 -DHAVE_GETNAMEINFO=1 -DHAVE_NETASH_ASH_H=1 -DHAVE_NETATALK_AT_H=1 -DHAVE_NETAX25_AX25_H=1 -DHAVE_NETECONET_EC_H=1 -DHAVE_NETIPX_IPX_H=1 -DHAVE_NETPACKET_PACKET_H=1 -DHAVE_LINUX_IRDA_H=1 -DHAVE_LINUX_ATM_H=1 -DHAVE_LINUX_LLC_H=1 -DHAVE_LINUX_TIPC_H=1 -DHAVE_LINUX_DN_H=1 -DHAVE_SOCKADDR_AT=1 -DHAVE_SOCKADDR_AX25=1 -DHAVE_SOCKADDR_IN=1 -DHAVE_SOCKADDR_IN6=1 -DHAVE_SOCKADDR_IPX=1 -DHAVE_SOCKADDR_UN=1 -DHAVE_SOCKADDR_ASH=1 -DHAVE_SOCKADDR_EC=1 -DHAVE_SOCKADDR_LL=1 -DHAVE_SOCKADDR_ATMPVC=1 -DHAVE_SOCKADDR_ATMSVC=1 -DHAVE_SOCKADDR_DN=1 -DHAVE_SOCKADDR_IRDA=1 -DHAVE_SOCKADDR_LLC=1 -DHAVE_PF_NETLINK=1 -I/usr/include/python2.7 -c netifaces.c -o build/temp.linux-x86_64-2.7/netifaces.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/netifaces.o -o build/lib.linux-x86_64-2.7/netifaces.so
+    
+  Running setup.py install for mccabe
+    
+  Running setup.py install for flake8
+    
+    Installing flake8 script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for cmd2
+    
+  Running setup.py install for extras
+    
+  Running setup.py install for docutils
+    changing mode of build/scripts-2.7/rst2html.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2s5.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2latex.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2xetex.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2man.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2xml.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2pseudoxml.py from 664 to 775
+    changing mode of build/scripts-2.7/rstpep2html.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2odt.py from 664 to 775
+    changing mode of build/scripts-2.7/rst2odt_prepstyles.py from 664 to 775
+    
+    warning: no files found matching 'MANIFEST'
+    warning: no files found matching '*' under directory 'extras'
+    warning: no previously-included files matching '.cvsignore' found under directory '*'
+    warning: no previously-included files matching '*.pyc' found under directory '*'
+    warning: no previously-included files matching '*~' found under directory '*'
+    warning: no previously-included files matching '.DS_Store' found under directory '*'
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2xml.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rstpep2html.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2s5.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2odt_prepstyles.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2latex.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2pseudoxml.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2html.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2xetex.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2odt.py to 775
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/rst2man.py to 775
+  Running setup.py install for python-mimeparse
+    
+  Running setup.py install for waitress
+    
+    Installing waitress-serve script to /home/armax/workspace/openstack/neutron/.tox/pep8/bin
+  Running setup.py install for beautifulsoup4
+    
+  Running setup.py install for mox3
+    [pbr] Reusing existing SOURCES.txt
+  Running setup.py install for posix-ipc
+    building 'posix_ipc' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c posix_ipc_module.c -o build/temp.linux-x86_64-2.7/posix_ipc_module.o
+    posix_ipc_module.c: In function ‘mq_cancel_notification’:
+    posix_ipc_module.c:1185:9: warning: variable ‘rc’ set but not used [-Wunused-but-set-variable]
+         int rc;
+             ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/posix_ipc_module.o -lrt -o build/lib.linux-x86_64-2.7/posix_ipc.so
+    
+  Running setup.py install for Tempita
+    
+  Running setup.py install for decorator
+    
+    warning: no previously-included files found matching 'Makefile'
+  Running setup.py install for sqlparse
+    changing mode of build/scripts-2.7/sqlformat from 664 to 775
+    
+    changing mode of /home/armax/workspace/openstack/neutron/.tox/pep8/bin/sqlformat to 775
+  Running setup.py install for anyjson
+    
+  Found existing installation: setuptools 3.6
+    Uninstalling setuptools:
+      Successfully uninstalled setuptools
+Successfully installed pbr Paste PasteDeploy Routes eventlet greenlet httplib2 requests jsonrpclib Jinja2 keystonemiddleware netaddr python-neutronclient retrying SQLAlchemy WebOb python-keystoneclient alembic six stevedore oslo.config oslo.context oslo.db oslo.i18n oslo.messaging oslo.middleware oslo.rootwrap oslo.serialization oslo.utils python-novaclient hacking cliff coverage discover fixtures mock python-subunit requests-mock sphinx oslosphinx testrepository testtools testscenarios WebTest oslotest tempest-lib pip repoze.lru markupsafe iso8601 Babel pycadf simplejson argparse PrettyTable Mako sqlalchemy-migrate kombu PyYAML netifaces pep8 pyflakes mccabe flake8 pyparsing cmd2 extras Pygments docutils python-mimeparse unittest2 waitress beautifulsoup4 mox3 jsonschema pytz posix-ipc Tempita decorator sqlparse amqp anyjson setuptools
+Cleaning up...

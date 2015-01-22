@@ -1,0 +1,10 @@
+#!/home/armax/workspace/openstack/neutron/.tox/pep8/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'neutron==2015.1.dev289','console_scripts','neutron-nec-agent'
+__requires__ = 'neutron==2015.1.dev289'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('neutron==2015.1.dev289', 'console_scripts', 'neutron-nec-agent')()
+    )

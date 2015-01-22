@@ -1,0 +1,6 @@
+#!/home/armax/workspace/openstack/neutron/.tox/api/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'neutron==2015.1.dev289','neutron-rootwrap'
+__requires__ = 'neutron==2015.1.dev289'
+__import__('pkg_resources').require('neutron==2015.1.dev289')
+__file__ = '/home/armax/workspace/openstack/neutron/bin/neutron-rootwrap'
+exec(compile(open(__file__).read(), __file__, 'exec'))
